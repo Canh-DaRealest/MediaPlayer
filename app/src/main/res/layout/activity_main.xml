@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/iv_bg_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#E91E63"
+        android:drawableStart="@drawable/ic_baseline_play_arrow_24"
+        android:text="BG Sound"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/bt_stop_bg_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#03A9F4"
+        android:drawableStart="@drawable/ic_baseline_play_arrow_24"
+        android:text="Stop BG sound"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/iv_game_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#03A9F4"
+        android:drawableStart="@drawable/ic_baseline_play_arrow_24"
+        android:text="Game sound"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>
